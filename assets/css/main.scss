@@ -41,3 +41,18 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* 改成衬线字体 */
+body {
+  font-family: Georgia, serif;
+}
+
+/* 标题改成蓝色 */
+h2 {
+  color: #337ab7;
+}
+
+/* 头像改成方形 */
+.author-avatar img {
+  border-radius: 0 !important;
+}
